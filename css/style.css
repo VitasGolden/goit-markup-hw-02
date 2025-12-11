@@ -1,0 +1,127 @@
+:root {
+	--primary-brand: #4d5ae5; /*Iris*/
+	--pressed-state: #404bbf; /*Ocean*/
+	--dark: #2e2f42; /*Navy blue*/
+	--success: #31d0aa; /*Green*/
+	--text: #434455; /*Slate*/
+	--subtle-text: #8e8f99; /*Light slate*/
+	--accent-color: #e7e9fc; /*cornflower*/
+	--light: #f4f4f4; /*cloud*/
+	--modal-overlay: #2e2f4266; /*Navy Blue Modal*/
+	--hero-background: #2e2f42b2; /*Grey*/
+	--white-background: #fff; /*White*/
+	--modal-background: #fcfcfc; /*Dairy*/
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: var(--white-background);
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+header .logo {
+	color: var(--dark);
+}
+
+.logo span {
+	color: var(--primary-brand);
+}
+
+nav a {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--dark);
+}
+
+address a {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--text);
+	font-style: normal;
+}
+
+.banner {
+	background-color: var(--dark);
+}
+
+.header-1 {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 60px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--white-background);
+}
+
+.banner-button {
+	color: var(--white-background);
+	background-color: var(--primary-brand);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.04em;
+	text-align: center;
+}
+
+.header-2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--dark);
+}
+
+.header-3 {
+	font-weight: 500;
+	font-style: 20px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+	color: var(--dark);
+}
+
+.content {
+	font-weight: 400;
+	font-style: 16px;
+	line-height: 24px;
+	letter-spacing: 0.02em;
+}
+
+.team {
+	background-color: var(--light);
+}
+
+.card {
+	background-color: var(--white-background);
+}
+
+.team .header-3,
+.team .content {
+	text-align: center;
+}
+
+footer {
+	background-color: var(--dark);
+}
+
+footer .logo,
+footer p {
+	color: var(--light);
+}
