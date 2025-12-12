@@ -2,20 +2,15 @@
 	--primary-brand: #4d5ae5; /*Iris*/
 	--pressed-state: #404bbf; /*Ocean*/
 	--dark: #2e2f42; /*Navy blue*/
-	--success: #31d0aa; /*Green*/
 	--text: #434455; /*Slate*/
-	--subtle-text: #8e8f99; /*Light slate*/
-	--accent-color: #e7e9fc; /*cornflower*/
-	--light: #f4f4f4; /*cloud*/
-	--modal-overlay: #2e2f4266; /*Navy Blue Modal*/
-	--hero-background: #2e2f42b2; /*Grey*/
+	--light: #f4f4fd; /*cloud*/
 	--white-background: #fff; /*White*/
-	--modal-background: #fcfcfc; /*Dairy*/
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
 	background-color: var(--white-background);
+	color: var(--dark);
 }
 
 ul {
@@ -31,7 +26,8 @@ a {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 18px;
-	line-height: 21px;
+	line-height: calc(24px / 16px);
+	letter-spacing: 0.03em;
 }
 
 header .logo {
@@ -45,16 +41,28 @@ header .logo {
 nav a {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: calc(24px / 16px);
 	color: var(--dark);
+	letter-spacing: 0.02em;
+}
+
+nav a:hover,
+nav a:focus {
+	color: var(--pressed-state);
 }
 
 address a {
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: calc(24px / 16px);
 	color: var(--text);
 	font-style: normal;
+	letter-spacing: 0.02em;
+}
+
+address a:hover,
+address a:focus {
+	color: var(--pressed-state);
 }
 
 .banner {
@@ -64,7 +72,7 @@ address a {
 .header-1 {
 	font-weight: 700;
 	font-size: 56px;
-	line-height: 60px;
+	line-height: calc(60px / 56px);
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: var(--white-background);
@@ -75,32 +83,34 @@ address a {
 	background-color: var(--primary-brand);
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 24px;
+	line-height: calc(24px / 16px);
 	letter-spacing: 0.04em;
 	text-align: center;
+}
+
+.banner-button:hover {
+	border-color: var(--pressed-state);
 }
 
 .header-2 {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 40px;
+	line-height: calc(40px / 36px);
 	letter-spacing: 0.02em;
 	text-align: center;
-	color: var(--dark);
 }
 
 .header-3 {
 	font-weight: 500;
-	font-style: 20px;
-	line-height: 24px;
+	font-size: 20px;
+	line-height: calc(24px / 16px);
 	letter-spacing: 0.02em;
-	color: var(--dark);
 }
 
 .content {
 	font-weight: 400;
-	font-style: 16px;
-	line-height: 24px;
+	font-size: 16px;
+	line-height: calc(24px / 16px);
 	letter-spacing: 0.02em;
 }
 
