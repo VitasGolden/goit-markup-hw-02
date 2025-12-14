@@ -88,8 +88,10 @@ address a:focus {
 	text-align: center;
 }
 
-.banner-button:hover {
-	border-color: var(--pressed-state);
+.banner-button:hover,
+.banner-button:focus {
+	background-color: var(--pressed-state);
+	cursor: pointer;
 }
 
 .header-2 {
@@ -112,6 +114,7 @@ address a:focus {
 	font-size: 16px;
 	line-height: calc(24px / 16px);
 	letter-spacing: 0.02em;
+	color: var(--text);
 }
 
 .team {
